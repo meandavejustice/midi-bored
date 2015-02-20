@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "watchify -o bundle.js -v -d index.js & http-server .",
+    "start": "watchify -o bundle.js -v -d index.js & http-server -c-1 .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "meandave",
   "license": "BSD",
   "dependencies": {
     "audiocontext": "^0.1.0",
-    "audiosource": "^0.1.1"
+    "audiosource": "^0.1.1",
+    "keyboardjs": "^0.4.2",
+    "vkey": "^1.0.0"
   }
 }

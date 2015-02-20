@@ -1,12 +1,26 @@
 <!doctype html>
 <html>
   <head>
-	  <title>MIDI example</title>
+	  <title>MIDI BORED</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
   </head>
   <body>
-    <p>web midi api demo. only plays a snare rn.</p>
+    <p>web midi api demo.</p>
+    <div class="message">
+    </div>
+    <small>currently set up for the 4 leftmost keys on Teenage Engineering OP-1 for testing</small>
 
-    <span class="device"></span>
+    <ul class="bank">
+      <li class="trigger"></li>
+      <li class="trigger"></li>
+      <li class="trigger"></li>
+      <li class="trigger"></li>
+    </ul>
+
+    <div style="clear: both;"></div>
+    <br />
+    <br />
+    <strong>Current Midi Device: <span class="device">None</span>
     <script type="text/javascript" src="bundle.js"></script>
   </body>
 </html>
