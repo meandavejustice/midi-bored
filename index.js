@@ -6,7 +6,10 @@ var messageEl = document.querySelector('.message');
 var midiAccess=null;	// the MIDIAccess object.
 var gainNode = context.createGain();
 var deviceEl = document.querySelector('.device');
-var urls = ['snare.wav', 'kick.wav', 'clap.wav', 'perc.wav'];
+var urls = ['midi-bored/snare.wav',
+            'midi-bored/kick.wav',
+            'midi-bored/clap.wav',
+            'midi-bored/perc.wav'];
 var keys = ['a', 's', 'd', 'f'];
 var triggers = document.querySelectorAll('.trigger');
 var noteMap = {
